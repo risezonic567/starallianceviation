@@ -11,75 +11,75 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-creative";
-// import banner from "../img/starbanner1.jpg"
+
 const slides = [
-  {
-    id: 1,
-    image: "/banner/homepagebanneronpilot1sliderfinal.jpg.jpeg",
-  },
-  {
-    id: 2,
-    image:
-      "/banner/slider2.jpg",
-  },
-  {
-    id: 3,
-    image:
-      "/banner/home-page-banner-on-pilot-3-sliderfinal.jpg.jpeg",
-  },
+  { id: 1, image: "/banner/homepagebanneronpilot1sliderfinal.jpg.jpeg" },
+  { id: 2, image: "/banner/slider2.jpg" },
+  { id: 3, image: "/banner/home-page-banner-on-pilot-3-sliderfinal.jpg.jpeg" },
 ];
 
 export default function HeroSlider() {
   return (
-    <div className="w-full sm:h-screen h-64 sm:mt-0 mt-[73px] relative">
+    /* Desktop par h-screen (Full) 
+       Mobile par height aspect-ratio ke hisaab se (h-auto ya specific height)
+    */
+    <div className="w-full lg:h-screen md:h-[60vh] sm:h-[40vh] h-[24vh] mt-12 md:mt-0 md:top-0 top-5 relative overflow-hidden bg-black">
       <Swiper
         modules={[Autoplay, Pagination, Navigation, EffectCreative]}
         effect="creative"
         creativeEffect={{
-          prev: {
-            shadow: true,
-            translate: ["-20%", 0, -200],
-            rotate: [0, 0, -15],
-          },
-          next: {
-            shadow: true,
-            translate: ["100%", 0, 0],
-          },
+          prev: { shadow: true, translate: ["-20%", 0, -200], rotate: [0, 0, -15] },
+          next: { shadow: true, translate: ["100%", 0, 0] },
         }}
         loop
         autoplay={{ delay: 3500, disableOnInteraction: false }}
         pagination={{ clickable: true }}
-        navigation
-        speed={1000} // smooth transition
-        className="h-screen"
+        navigation={true}
+        speed={1000}
+        className="w-full h-full"
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div
-              className="h-screen  bg-center bg-cover  bg-no-repeat"
+              /* bg-contain: Isse poori image dikhegi, katega kuch nahi.
+                 bg-center: Image center mein rahegi.
+              */
+              className="w-full h-full bg-center lg:bg-cover bg-contain bg-no-repeat relative"
               style={{ backgroundImage: `url(${slide.image})` }}
-              // style={{ backgroundImage: `url(${banner})` }}
             >
-              <div className="absolute inset-0 bg-black/10" />
+              {/* Overlay - aap ise hata bhi sakte hain agar image clear chahiye */}
+              <div className="absolute inset-0 bg-black/5" />
             </div>
-             <div
-              className="h-screen  bg-center bg-cover  bg-no-repeat"
-              style={{ backgroundImage: `url(${slide.image})` }}
-              // style={{ backgroundImage: `url(${banner})` }}
-            >
-              <div className="absolute inset-0 bg-black/10" />
-            </div>
-             <div
-              className="h-screen  bg-center bg-cover  bg-no-repeat"
-              style={{ backgroundImage: `url(${slide.image})` }}
-              // style={{ backgroundImage: `url(${banner})` }}
-            >
-              <div className="absolute inset-0 bg-black/10" />
-            </div>
-
           </SwiperSlide>
         ))}
       </Swiper>
+
+      {/* Responsive Arrows & Dots CSS */}
+      <style jsx global>{`
+        .swiper-button-next, .swiper-button-prev {
+          color: white !important;
+          transform: scale(0.7);
+        }
+
+        @media (max-width: 640px) {
+          /* Mobile par arrows ko thoda aur adjust kiya */
+          .swiper-button-next, .swiper-button-prev {
+            transform: scale(0.35);
+          }
+          .swiper-button-next { right: -5px !important; }
+          .swiper-button-prev { left: -5px !important; }
+          
+          /* Pagination dots ko chhota kiya taaki image ke upar na aayein */
+          .swiper-pagination-bullet {
+            width: 6px;
+            height: 6px;
+          }
+        }
+
+        .swiper-pagination-bullet-active {
+          background: white !important;
+        }
+      `}</style>
     </div>
   );
 }

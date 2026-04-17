@@ -74,7 +74,7 @@ const Navbar = () => {
   };
 
   const renderDropdown = (key) => (
-    <div className="absolute top-full left-0 bg-white rounded shadow-md py-2 w-64 z-50">
+    <div className="absolute top-full left-0 bg-white rounded shadow-md py-2  w-64 z-50">
       {dropdowns[key].map((item) => (
         <NavLink key={item.name} to={item.path}>
           <div className="px-4 py-2 hover:bg-indigo-100 text-sm text-gray-700 transition">
