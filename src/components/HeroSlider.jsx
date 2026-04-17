@@ -23,7 +23,7 @@ export default function HeroSlider() {
     /* Desktop par h-screen (Full) 
        Mobile par height aspect-ratio ke hisaab se (h-auto ya specific height)
     */
-    <div className="w-full lg:h-screen md:h-[60vh] sm:h-[40vh] h-[24vh] mt-12 md:mt-0 md:top-0 top-5 relative overflow-hidden bg-black">
+    <div className="w-full lg:h-screen md:h-[60vh] sm:h-[40vh] h-[24vh] mt-12 md:mt-0 md:top-0 top-5 relative overflow-hidden ">
       <Swiper
         modules={[Autoplay, Pagination, Navigation, EffectCreative]}
         effect="creative"
@@ -41,15 +41,11 @@ export default function HeroSlider() {
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div
-              /* bg-contain: Isse poori image dikhegi, katega kuch nahi.
-                 bg-center: Image center mein rahegi.
-              */
-              className="w-full h-full bg-center lg:bg-cover bg-contain bg-no-repeat relative"
-              style={{ backgroundImage: `url(${slide.image})` }}
-            >
-              {/* Overlay - aap ise hata bhi sakte hain agar image clear chahiye */}
-              <div className="absolute inset-0 bg-black/5" />
-            </div>
+  className="w-full h-full bg-center bg-cover bg-no-repeat relative"
+  style={{ backgroundImage: `url(${slide.image})` }}
+>
+  <div className="absolute inset-0 bg-black/5" />
+</div>
           </SwiperSlide>
         ))}
       </Swiper>
