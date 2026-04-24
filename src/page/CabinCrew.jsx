@@ -136,60 +136,7 @@ const CabinCrew = () => {
         </div>
       </section>
 
-      {/* Section: Counseling */}
-      {/* <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-4xl font-bold mb-5 text-primary">
-              Counselling for Reappearance
-            </h2>
-            <p className="text-gray-700 text-lg">
-              From managing stress to setting realistic goals, our counselling
-              sessions offer vital support for aspiring aviators to enhance
-              their mental well-being and performance during training and
-              beyond.
-            </p>
-            <Link
-              to="/counselling-for-reappearance"
-              className="inline-block mt-6 text-Secondary font-semibold underline hover:text-Lightcolor transition"
-            >
-              Read More
-            </Link>
-          </div>
-          <img
-            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/2.jpg"
-            alt="Counselling"
-            className="rounded-2xl shadow-2xl border-4 border-blue-100"
-          />
-        </div>
-      </section> */}
-
-      {/* Section: Job-Oriented Training */}
-      {/* <section className="px-6 py-20 max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <img
-            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/3.jpg"
-            alt="Job Oriented"
-            className="rounded-2xl shadow-2xl border-4 border-blue-100"
-          />
-          <div>
-            <h2 className="text-4xl font-bold mb-5 text-Secondary">
-              Job-Oriented CC Training
-            </h2>
-            <p className="text-lg">
-              Star Alliance Aviation Academy stands apart for its dedication to
-              excellence, industry relevance, and personalized support to help
-              you join top airlines as a cabin crew professional.
-            </p>
-            <Link
-              to="/job-oriented-cc-training"
-              className="inline-block mt-6 text-Secondary font-semibold underline hover:text-Lightcolor transition"
-            >
-              Read More
-            </Link>
-          </div>
-        </div>
-      </section> */}
+    
 
       {/* Course Highlights */}
       <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6">

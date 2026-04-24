@@ -109,13 +109,7 @@ export default function Home() {
               high-quality products. We’ve grown substantially since then, yet
               our dedication to excellence remains unchanged.
               <br />
-              {/* <br />
-              TOP service & products in the aviation industry. Our academy was
-              established in 2022 to meet the market demand for safe, reliable,
-              and innovative aviation training solutions. While we have been
-              expanding quite quickly, our commitment to quality and customer
-              experience has always come first.
-              <br /> */}
+              
               <br />
               We offer dedicated aviation management courses created and taught
               by some of the most experienced experts in the field. Our
@@ -157,14 +151,7 @@ export default function Home() {
                 data-aos="fade-up"
                 data-aos-delay="400"
               />
-              {/* <img
-                loading="lazy"
-                src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/img/Homeimg/H2.jpg"
-                alt="Air Hostess"
-                className="rounded-xl w-full sm:w-1/3 lg:w-[30%] object-cover shadow-lg mt-4 sm:mt-0"
-                data-aos="fade-up"
-                data-aos-delay="600"
-              /> */}
+              
             </div>
 
             {/* Badge */}
