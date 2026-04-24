@@ -2,16 +2,26 @@
   RewriteEngine On
   RewriteBase /
 
-  # Force HTTPS and WWW (canonical redirect)
+  # Force HTTPS + WWW
   RewriteCond %{HTTPS} off [OR]
   RewriteCond %{HTTP_HOST} !^www\. [NC]
   RewriteRule ^ https://www.starallianceaviation.com%{REQUEST_URI} [L,R=301]
 
-  # Don’t rewrite existing files or directories
+  # Old unwanted URLs → Redirect to Home
+  Redirect 301 /team-member/ /
+  Redirect 301 /testimonial/ /
+  Redirect 301 /portfolio-category/ /
+  Redirect 301 /service-category/ /
+  Redirect 301 /category/blog/ /
+  Redirect 301 /category/blog/feed/ /
+
+  # Existing files/folders should load normally
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^ - [L]
 
-  # SPA Routing (React/Vite App)
-  RewriteRule ^ index.html [L]
+  # React SPA fallback only for valid frontend routes
+  RewriteRule . /index.html [L]
 </IfModule>
+
+ErrorDocument 404 /404.html
