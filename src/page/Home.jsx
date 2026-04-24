@@ -18,73 +18,72 @@ export default function Home() {
   return (
     <>
       {/* <HeroSection /> */}
-     <Helmet>
-  <title>
-    Best Pilot Training Academy in Delhi, India | Star Alliance Aviation.
-  </title>
-  <meta
-    name="description"
-    content="Star Alliance Aviation Academy—India’s best aviation academy institute in Delhi, led by former DGCA experts. Comprehensive pilot, cabin crew & airline training."
-  />
-  <link rel="canonical" href="https://www.starallianceaviation.com/" />
+      <Helmet>
+        <title>
+          Best Pilot Training Academy in Delhi | Star Alliance Aviation Academy
+        </title>
+        <meta
+          name="description"
+          content="Join Star Alliance Aviation Academy for CPL training, cabin crew courses, ADAPT preparation, and aviation management programs in Delhi."
+        />
+        <link rel="canonical" href="https://www.starallianceaviation.com/" />
 
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "@id": "https://www.starallianceaviation.com",
-      name: "Star Alliance Aviation Academy",
-      description:
-        "Star Alliance Aviation Academy is a premier aviation training institute based in New Delhi, offering top-tier courses in cabin crew, ground staff, and aviation management.",
-      url: "https://www.starallianceaviation.com",
-      image: "https://i.postimg.cc/FKqwPS2B/white-logo-1.png",
-      telephone: "+91 92895 95558",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress:
-          "E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector – 7, Manyavar Showroom Building",
-        addressLocality: "New Delhi",
-        postalCode: "110075",
-        addressCountry: "IN",
-      },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: 28.5861536,
-        longitude: 77.0714892,
-      },
-      openingHoursSpecification: [
-        {
-          "@type": "OpeningHoursSpecification",
-          dayOfWeek: [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-          ],
-          opens: "10:00",
-          closes: "20:00",
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          dayOfWeek: "Sunday",
-          opens: "Closed",
-          closes: "Closed",
-        },
-      ],
-      sameAs: [
-        "https://www.facebook.com/starallianceaviationacademy/",
-        "https://www.instagram.com/starallianceaviation/?hl=en",
-        "https://www.youtube.com/@starallianceaviationacademy",
-        "https://www.linkedin.com/company/starallianceaviationacademy/",
-        "https://in.pinterest.com/starallianceaviationacademy/",
-        "https://x.com/staralliance_in",
-      ],
-    })}
-  </script>
-</Helmet>
-
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://www.starallianceaviation.com",
+            name: "Star Alliance Aviation Academy",
+            description:
+              "Star Alliance Aviation Academy is a premier aviation training institute based in New Delhi, offering top-tier courses in cabin crew, ground staff, and aviation management.",
+            url: "https://www.starallianceaviation.com",
+            image: "https://i.postimg.cc/FKqwPS2B/white-logo-1.png",
+            telephone: "+91 92895 95558",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress:
+                "E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector – 7, Manyavar Showroom Building",
+              addressLocality: "New Delhi",
+              postalCode: "110075",
+              addressCountry: "IN",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 28.5861536,
+              longitude: 77.0714892,
+            },
+            openingHoursSpecification: [
+              {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ],
+                opens: "10:00",
+                closes: "20:00",
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: "Sunday",
+                opens: "Closed",
+                closes: "Closed",
+              },
+            ],
+            sameAs: [
+              "https://www.facebook.com/starallianceaviationacademy/",
+              "https://www.instagram.com/starallianceaviation/?hl=en",
+              "https://www.youtube.com/@starallianceaviationacademy",
+              "https://www.linkedin.com/company/starallianceaviationacademy/",
+              "https://in.pinterest.com/starallianceaviationacademy/",
+              "https://x.com/staralliance_in",
+            ],
+          })}
+        </script>
+      </Helmet>
 
       <HeroSlider />
       {/* <HeroSection/> */}
