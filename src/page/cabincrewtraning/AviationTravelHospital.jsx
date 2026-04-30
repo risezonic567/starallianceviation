@@ -11,10 +11,10 @@ export default function AviationTravelHospital() {
         <div className="font-sans text-gray-800">
             {/* SEO */}
             <Helmet>
-                <title>Hospitality & Aviation Pilot Course | Star Alliance Aviation.</title>
+                <title>Aviation, Hospitality & Travel Management Course.</title>
                 <meta
                     name="description"
-                    content="Build a successful career in aviation pilot course management and hospitality with Star Alliance Aviation’s Academy professional training and job placement support."
+                    content="Build a career in aviation, travel & hospitality with industry-focused training and practical exposure."
                 />
                 <link
                     rel="canonical"

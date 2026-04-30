@@ -9,8 +9,8 @@ export default function FLCRecencyFlying() {
   return (
     <div>
       <Helmet>
-        <title>Flight Recency Training for Pilots – Star Alliance Aviation.</title>
-        <meta name="description" content="Complete your DGCA FLC Recency Flying at Star Alliance Aviation Academy. Affordable, reliable pilot recency flight training with expert supervision." />
+        <title>FLC Recency Flying India | Pilot License Renewal.</title>
+        <meta name="description" content="Complete your recency flying requirements with expert supervision and DGCA-compliant training" />
         <link rel="canonical" href="https://www.starallianceaviation.com/flc-recency-flying" />
       </Helmet>
       <section

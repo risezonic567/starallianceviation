@@ -17,8 +17,8 @@ const ServicesAndExpertise = () => {
   return (
     <>
      <Helmet>
-        <title>Aviation Services & Expertise | Best flying school in india.</title>
-        <meta name="description" content="Discover Star Alliance Aviation’s expert aviation services—DGCA training, pilot courses, and professional guidance for aspiring flying school in india." />
+        <title>Aviation Consultancy Services India | DGCA Guidance</title>
+        <meta name="description" content="Explore aviation consultancy services including DGCA licensing, training support & career guidance." />
         <link rel="canonical" href="https://www.starallianceaviation.com/services-expertise" />
       </Helmet>
       {/* Hero Section */}

@@ -10,8 +10,8 @@ export default function ClassMedical() {
   return (
     <div>
       <Helmet>
-        <title>Get Your DGCA Class 12 Medical Done – Star Alliance Aviation</title>
-        <meta name="description" content="Star Alliance Aviation helps you complete your DGCA Class-12 medical efficiently. Learn eligibility, process, documents & get approved fast." />
+        <title>DGCA Class 1 & 2 Medical India | Pilot Medical Test</title>
+        <meta name="description" content="Complete DGCA Class 1 & 2 medical exams with proper guidance, documentation support & fast processing." />
         <link rel="canonical" href="https://www.starallianceaviation.com/class-12-medical" />
       </Helmet>
       {/* Hero Section */}

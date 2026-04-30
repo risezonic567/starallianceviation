@@ -12,11 +12,11 @@ export default function AboutUs() {
     <>
       <Helmet>
         <title>
-          Star Alliance Aviation | Trusted Aviation Academy Institute
+        About Us | Aviation Training Institute in Delhi
         </title>
         <meta
           name="description"
-          content="Learn about Star Alliance Aviation Academy – India’s leading aviation academy in Delhi for pilot training, cadet pilot programs, and cabin crew courses with DGCA approval."
+          content="Learn about our aviation institute in Delhi, expert trainers, and our mission to build successful pilot and aviation careers in India."
         />
         <link
           rel="canonical"

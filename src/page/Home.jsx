@@ -20,11 +20,11 @@ export default function Home() {
       {/* <HeroSection /> */}
       <Helmet>
         <title>
-          Best Pilot Training Academy in Delhi | Star Alliance Aviation Academy
+         Aviation Academy in Delhi | Pilot, Cabin Crew & DGCA Training
         </title>
         <meta
           name="description"
-          content="Join Star Alliance Aviation Academy for CPL training, cabin crew courses, ADAPT preparation, and aviation management programs in Delhi."
+          content="Join a leading aviation academy in Delhi offering pilot training, cabin crew courses & DGCA guidance. Start your aviation career today."
         />
         <link rel="canonical" href="https://www.starallianceaviation.com/" />
 

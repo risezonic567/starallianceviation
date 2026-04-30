@@ -55,8 +55,8 @@ const AirlinesPreparation = () => {
   return (
     <>
       <Helmet>
-        <title>Airline Preparation Course | Star Alliance Aviation.</title>
-        <meta name="description" content="Get airline-ready with Star Alliance’s preparation course. Includes interview training, aptitude tests, group tasks, and simulator exposure." />
+        <title>Airline Preparation Course India | Pilot Interview Training</title>
+        <meta name="description" content="Get airline-ready with interview prep, GD training & aptitude coaching for pilot selection." />
         <link rel="canonical" href="https://www.starallianceaviation.com/airlines-preparation-course" />
       </Helmet>
       <section

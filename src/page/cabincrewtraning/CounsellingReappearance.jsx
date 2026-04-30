@@ -9,8 +9,8 @@ const CounsellingReappearance = () => {
   return (
     <div className="bg-white text-gray-800">
       <Helmet>
-        <title>Counselling for Reappearance Exams | Star Alliance Aviation</title>
-        <meta name="description" content="Need help after a DGCA exam failure? Get expert reappearance counselling, performance reviews, and coaching to clear your next attempt." />
+        <title>DGCA Exam Reattempt Coaching India</title>
+        <meta name="description" content="Get expert guidance for DGCA exam reattempts with performance analysis & targeted preparation." />
         <link rel="canonical" href="https://www.starallianceaviation.com/counselling-for-reappearance" />
       </Helmet>
       <section

@@ -10,8 +10,8 @@ export default function HospitalityManagement() {
     return (
         <div className="font-sans text-gray-800">
             <Helmet>
-                <title>Aviation, Hospitality & Travel Management Course</title>
-                <meta name="description" content="Enroll in Star Alliance Aviation Academy’s 11-month course in Aviation, Hospitality & Travel Management. Build a global career in airlines, hotels & tourism." />
+                <title>Hospitality & Aviation Management Course Indiae</title>
+                <meta name="description" content="Build a career in aviation and hospitality management with professional training and placement support." />
                 <link rel="canonical" href="https://www.starallianceaviation.com/hospitality-aviation-mangement" />
             </Helmet>
             {/* Hero Section */}

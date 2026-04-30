@@ -12,11 +12,11 @@ const CabinCrew = () => {
 
       <Helmet>
         <title>
-          Cabin Crew Course in Delhi | Star Alliance Aviation Academy
+         Cabin Crew Course in Delhi | Air Hostess Training
         </title>
         <meta
           name="description"
-          content="Join India’s leading cabin crew course in Delhi—Star Alliance Aviation. Learn aviation hospitality, grooming, and airline interview skills with expert mentors."
+          content="Join cabin crew training in Delhi. Learn grooming, communication & airline skills for a successful career."
         />
         <link
           rel="canonical"

@@ -38,8 +38,8 @@ export default function MakeAppointment() {
     <>
       {/* Hero Section */}
       <Helmet>
-        <title>Book an Appointment | Star Alliance Aviation</title>
-        <meta name="description" content="BBook your consultation with Star Alliance Aviation today. Secure expert guidance, career counselling, or training support at your convenience." />
+        <title>Book Aviation Counselling Appointment</title>
+        <meta name="description" content="Schedule your consultation for aviation training, career guidance & expert advice." />
         <link rel="canonical" href="https://www.starallianceaviation.com/make-appointment" />
       </Helmet>
       <div

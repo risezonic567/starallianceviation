@@ -67,11 +67,11 @@ const PilotTraining = () => {
     <>
       <Helmet>
         <title>
-          Best Pilot Training | Star Alliance Aviation Academy
+         Pilot Training in Delhi | CPL & ATPL Courses India
         </title>
         <meta
           name="description"
-          content="Join Star Alliance Aviation Academy, the leading DGCA-approved pilot training institute in Delhi. Learn CPL, ATPL, and CPP courses from certified airline professionals."
+          content="Get complete pilot training in Delhi with CPL, ATPL & cadet program guidance. Learn from aviation experts and start your flying career."
         />
         <link
           rel="canonical"

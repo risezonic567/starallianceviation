@@ -9,8 +9,8 @@ export default function ATPLOralViva() {
   return (
     <div>
       <Helmet>
-        <title>Airline Pilot Oral Exam Prep | Star Alliance Aviation</title>
-        <meta name="description" content="Prepare for your DGCA ATPL Oral Viva with expert guidance at Star Alliance Aviation. Mock interviews, detailed feedback, and real exam scenarios." />
+        <title>ATPL Oral Exam Preparation India | Pilot Training</title>
+        <meta name="description" content="Crack your ATPL oral exam with mock interviews, viva sessions & expert feedback designed for DGCA success." />
         <link rel="canonical" href="https://www.starallianceaviation.com/atpl-oral-viva" />
       </Helmet>
       <section

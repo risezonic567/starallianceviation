@@ -18,8 +18,8 @@ const ContactPage = () => {
   return (
     <div className="bg-gray-50 min-h-screen">
       <Helmet>
-        <title>Best Academy for Pilot training in india| Get in Touch .</title>
-        <meta name="description" content="Join India’s best pilot training academy—Star Alliance Aviation. Learn DGCA-approved CPL, ATPL, and Cadet Pilot Program courses from expert airline instructors." />
+        <title>Contact Aviation Institute Delhi | Enquiry & Support.</title>
+        <meta name="description" content="Contact us for aviation courses, pilot training & career counselling in Delhi." />
         <link rel="canonical" href="https://www.starallianceaviation.com/contact-us" />
       </Helmet>
       <Toaster position="top-center" reverseOrder={false} />

@@ -8,8 +8,8 @@ const PrivacyPolicy = () => {
   return (
     <div className="mx-auto px-4 py-10 text-gray-800">
       <Helmet>
-        <title>Privacy Policy – Star Alliance Aviation Academy</title>
-        <meta name="description" content="Review the privacy policy of Star Alliance Aviation to learn how we collect, use, and protect your data. Transparency and trust are our top priorities." />
+        <title>Privacy Policy | Star Alliance Aviation Academy</title>
+        <meta name="description" content="Learn how we collect, use & protect your personal data with full transparency." />
         <link rel="canonical" href="https://www.starallianceaviation.com/privacy-policy" />
       </Helmet>
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-6 pt-32">

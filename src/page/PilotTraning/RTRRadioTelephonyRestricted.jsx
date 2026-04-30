@@ -9,8 +9,8 @@ export default function RTRRadioTelephonyRestricted() {
   return (
     <div>
       <Helmet>
-        <title>Radio Telephony Restricted (RTR) Classes – Star Alliance.</title>
-        <meta name="description" content="Join Star Alliance Aviation for the RTR (Radio Telephony Restricted) institute. Expert-led training, mock tests, and 100% DGCA and WPC syllabus coverage." />
+        <title>RTR Exam Coaching India | Radio Telephony Training</title>
+        <meta name="description" content="Prepare for RTR exam with expert coaching, communication practice & full WPC syllabus coverage." />
         <link rel="canonical" href="https://www.starallianceaviation.com/rtr-radio-telephony-restricted" />
       </Helmet>
       {/* Hero Section */}

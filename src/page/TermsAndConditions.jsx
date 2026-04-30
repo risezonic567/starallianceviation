@@ -10,8 +10,8 @@ const TermsAndConditions = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-6 pt-32">
       <Helmet>
-        <title>Terms & Conditions – Star Alliance Aviation Academy</title>
-        <meta name="description" content="Read the Terms & Conditions of Star Alliance Aviation. Here we outline user obligations, disclaimers, and the legal terms of using our aviation training services." />
+        <title>Terms & Conditions | Star Alliance Aviation Academy</title>
+        <meta name="description" content="Read the terms governing use of our website and aviation services." />
         <link rel="canonical" href="https://www.starallianceaviation.com/terms-and-condition" />
       </Helmet>
       <div className="max-w-6xl mx-auto bg-white shadow-xl rounded-2xl p-10 relative overflow-hidden">

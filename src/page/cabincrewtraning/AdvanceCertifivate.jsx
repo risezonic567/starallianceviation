@@ -12,11 +12,11 @@ export default function CertificateHospitality() {
             {/* SEO Meta Tags */}
             <Helmet>
                 <title>
-                    Advance Certificate in Aviation & Hospitality Management
+                  Advanced Aviation Certificate Course India
                 </title>
                 <meta
                     name="description"
-                    content="Advance your career with Star Alliance’s 6-month certificate in Aviation, Hospitality, Travel & Ground Services. Practical learning for global opportunities."
+                    content="Upgrade your skills with advanced certification in aviation, travel & hospitality industries."
                 />
                 <link
                     rel="canonical"
