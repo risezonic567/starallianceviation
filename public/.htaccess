@@ -1,42 +1,25 @@
 # ===============================
-# 🔥 HTACCESS FINAL CLEAN VERSION
+# 🔥 FINAL CLEAN HTACCESS
 # ===============================
 
-# TEST (remove after checking)
-Redirect 302 /test-ht https://google.com
-Redirect 302 /check-htaccess https://google.com
+RewriteEngine On
 
 # ===============================
-# ❌ PERMANENT DELETE (410 FIRST)
+# ❌ FORCE 410 (OLD WORDPRESS URLS)
 # ===============================
-RedirectMatch 410 ^/2019/
-RedirectMatch 410 ^/2020/
-RedirectMatch 410 ^/portfolio/
-RedirectMatch 410 ^/tag/
-RedirectMatch 410 ^/testimonial/
-RedirectMatch 410 ^/portfolio-category/
-RedirectMatch 410 ^/service-category/
-RedirectMatch 410 ^/feed/
-
-Redirect 410 /project-style-1/
-Redirect 410 /make-appointment-2/
-Redirect 410 /our-history/
-
-
+RewriteRule ^(2019|2020|portfolio|tag|testimonial|portfolio-category|service-category|feed)(/|$) - [G,L]
+RewriteRule ^(project-style-1|make-appointment-2|our-history)(/|$) - [G,L]
 
 # ===============================
 # ✅ FORCE HTTPS + NON-WWW
 # ===============================
-RewriteEngine On
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\.starallianceaviation\.com [NC]
 RewriteRule ^(.*)$ https://starallianceaviation.com/$1 [R=301,L]
 
 # ===============================
-# ✅ REACT ROUTING (ONLY ONCE)
+# ✅ REACT ROUTING
 # ===============================
-RewriteEngine On
-
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ /index.html [L]
