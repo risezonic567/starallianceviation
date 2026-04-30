@@ -1,40 +1,32 @@
-RewriteEngine On
+# ===============================
+# 🔥 HTACCESS FINAL CLEAN VERSION
+# ===============================
 
+# TEST (remove after checking)
 Redirect 302 /check-htaccess https://google.com
+
+# ===============================
+# ❌ PERMANENT DELETE (410 FIRST)
+# ===============================
+RedirectMatch 410 ^/(2019|2020)/
+RedirectMatch 410 ^/portfolio/
+RedirectMatch 410 ^/tag/
+RedirectMatch 410 ^/testimonial/
+RedirectMatch 410 ^/portfolio-category/
+RedirectMatch 410 ^/service-category/
+RedirectMatch 410 ^/feed/
+
+Redirect 410 /project-style-1/
+Redirect 410 /make-appointment-2/
+Redirect 410 /our-history/
 
 # ===============================
 # ✅ FORCE HTTPS + NON-WWW
 # ===============================
+RewriteEngine On
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\.starallianceaviation\.com [NC]
 RewriteRule ^(.*)$ https://starallianceaviation.com/$1 [R=301,L]
-
-# ===============================
-# ❌ PERMANENT DELETE (410) OLD WORDPRESS URLS
-# ===============================
-
-# Date-based blogs
-RewriteRule ^(2019|2020)/.*$ - [G,L]
-
-# Portfolio & project
-RewriteRule ^portfolio/.*$ - [G,L]
-Redirect 410 /portfolio/
-Redirect 410 /project-style-1/
-
-# Tags / categories / services
-RewriteRule ^tag/.*$ - [G,L]
-RewriteRule ^portfolio-category/.*$ - [G,L]
-RewriteRule ^service-category/.*$ - [G,L]
-
-# Testimonials
-RewriteRule ^testimonial/.*$ - [G,L]
-
-# Specific junk pages
-Redirect 410 /make-appointment-2/
-Redirect 410 /our-history/
-
-# Feed
-Redirect 410 /feed/
 
 # ===============================
 # ✅ REACT ROUTING (ONLY ONCE)
