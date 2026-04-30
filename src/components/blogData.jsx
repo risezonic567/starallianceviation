@@ -11,7 +11,7 @@ export const blogPosts = [
       "AI is transforming web development by automating tasks, enhancing UX, and improving accessibility...",
     content: `
       <p>Artificial Intelligence (AI) is changing the way we design and develop websites...</p>
-      <p>From automated testing to AI-driven design tools...</p>
+      <p>From automated testings to AI-driven design tools...</p>
     `,
   },
   {

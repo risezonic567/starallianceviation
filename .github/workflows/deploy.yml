@@ -1,4 +1,4 @@
-name : Auto Deploy Malani Marbles
+name : Auto Deploy StarAlliance
 
 on: 
   push:
