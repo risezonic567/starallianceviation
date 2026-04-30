@@ -22,8 +22,8 @@ jobs :
         uses: SamKirkland/FTP-Deploy-Action@v4.3.3
 
         with:
-         server:   132.148.180.212
-         username: deploy@malanimarbles.com
+         server:   148.72.62.9
+         username: deploy@starallianceaviation.com/
          password: ${{secrets.FTP_PASSWORD}}
          protocols: ftps
          port: 21
