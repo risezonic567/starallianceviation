@@ -9,7 +9,8 @@ Redirect 302 /check-htaccess https://google.com
 # ===============================
 # ❌ PERMANENT DELETE (410 FIRST)
 # ===============================
-RedirectMatch 410 ^/(2019|2020)/
+RedirectMatch 410 ^/2019/
+RedirectMatch 410 ^/2020/
 RedirectMatch 410 ^/portfolio/
 RedirectMatch 410 ^/tag/
 RedirectMatch 410 ^/testimonial/
@@ -20,6 +21,8 @@ RedirectMatch 410 ^/feed/
 Redirect 410 /project-style-1/
 Redirect 410 /make-appointment-2/
 Redirect 410 /our-history/
+
+
 
 # ===============================
 # ✅ FORCE HTTPS + NON-WWW
@@ -32,6 +35,8 @@ RewriteRule ^(.*)$ https://starallianceaviation.com/$1 [R=301,L]
 # ===============================
 # ✅ REACT ROUTING (ONLY ONCE)
 # ===============================
+RewriteEngine On
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ /index.html [L]
