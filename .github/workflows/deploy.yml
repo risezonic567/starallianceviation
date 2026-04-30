@@ -23,7 +23,7 @@ jobs :
 
         with:
          server:   148.72.62.9
-         username: deploy@starallianceaviation.com/
+         username: deploy@starallianceaviation.com
          password: ${{secrets.FTP_PASSWORD}}
          protocols: ftps
          port: 21
@@ -31,7 +31,7 @@ jobs :
          server-dir: /
          dangerous-clean-slate: false  
 
-# bhai agar yeah true hua toh pahle sare file ko remove karega phir ja ke upload yeah slow bahut hoga deploy ke time and false reflect only changes         
+# bhai agar yeah true hua toh pahle sare file ko remove karega phir ja ke upload yeah slow bahut hoga deploy ke time and false reflect only changes    
 
 
         
