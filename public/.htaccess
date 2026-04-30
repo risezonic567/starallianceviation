@@ -3,6 +3,7 @@
 # ===============================
 
 # TEST (remove after checking)
+Redirect 302 /test-ht https://google.com
 Redirect 302 /check-htaccess https://google.com
 
 # ===============================
